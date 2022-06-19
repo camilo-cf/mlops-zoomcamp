@@ -2,3 +2,16 @@ data/
 .ipynb_checkpoints
 .bin
 *.db
+<<<<<<< HEAD
+=======
+
+*.parquet
+*.html
+*.csv
+
+.venv
+venv
+.idea
+**/artifacts/
+**/models/
+>>>>>>> b0d5bc071b3f63a29dadcdc19efbe06394ee6212
