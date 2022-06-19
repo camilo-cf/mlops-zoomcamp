@@ -10,7 +10,7 @@ args = parser.parse_args()
 year = args.year
 month = args.month
 
-PATH = "../src/"
+PATH = "."
 
 with open(os.path.join(PATH, 'model.bin'), 'rb') as f_in:
     dv, lr = pickle.load(f_in)
